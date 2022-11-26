@@ -1,5 +1,5 @@
 # Covid19 Detection from CT Scans
-
+**Note: The project is under development**
 ## Get started
 ```bash
 git clone https://github.com/anikde/MastersProjectSeries.git
