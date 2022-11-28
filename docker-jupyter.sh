@@ -6,6 +6,6 @@ docker run \
 	--rm \
 	--net="host" \
 	--name "docker-gpu" \
-	-v "$PWD/imageFilters":"/root/pythonprojects/imageFilters" \
+	-v "$PWD":"/root/projects/MasterProjectSeries" \
 	docker-gpu-image:latest \
-	bash -c "cd /root/pythonprojects && jupyter-notebook --allow-root"
+	bash -c "cd /root/projects && jupyter-notebook --allow-root"
